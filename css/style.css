@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+:root {
+    --blue: #7854F7;
+    --black: #000;
+    --white: #fff
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-get {
+    width: 267px;
+    height: 72px;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    padding: 50px 0px;
+}
+
+/*---------header------------*/
+header {
+    position: relative;
+}
+
+nav .nav-link {
+    color: var(--black) !important;
+    font-weight: 500;
+}
+
+nav .btn-start {
+    background-color:  var(--blue);
+    color: var(--white);
+}
+
+.header-section {
+    position: relative;
+    height: 860px;
+    /* background: url('../access/bg_gradient.png') */
+    background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
+}
+
+.banner-left {
+    padding: 140px;
+}
+
+.banner-left h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 87px;
+}
+
+.banner-left p {
+    font-size: 18px;
+line-height: 25px;
+color: #94A2B3;
+}
+/*----x----header-----x------*/
+
+/*-----------main=============*/
+main {
+    
+}
+
+.block-feature {
+}
+
+.block-feature h2 {
+    font-size: 55px;
+line-height: 70px;
+color: #272D4E;
+}
+
+.block-feature h2 p {
+    width: 500px;
+    text-align: center;
+}
+
+.feature-content {
+    margin-left: 128px;
+}
+
+.feature-content h2 {
+    font-weight: bold;
+font-size: 36px;
+line-height: 70px;
+}
+
+.feature-content p {
+    font-size: 18px;
+line-height: 30px;
+color: #94A2B3;
+}
+
+.feature-left {
+    position: relative;
+    width: 434px;
+    height: 478px;
+    /* border: 1px solid black; */
+}
+
+.feature-left .left-content {
+    padding: 0px 36px;
+}
+
+.feature-img {
+    position: absolute;
+}
+
+.block-infor {
+    position: relative;
+    background: url('../access/Rectangle234.png') no-repeat;
+    background-size: 100% 860px;
+    margin-top: 100px;
+    height: 900px;
+}
+
+.infor-content_top {
+    position: absolute;
+    width: 800px;
+    top: -58px;
+    left: 223px;
+}
+
+.infor-content_top .infor-text, .infor-content_bottom .infor-text {
+    color: var(--white);
+}
+
+.infor-content_bottom {
+    position: absolute;
+    width: 800px;
+    bottom: -6px;
+    right: 233px;
+}
+
+.block-trust {
+    position: relative;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
+}
+
+.block-trust h2 {
+    font-size: 55px;
+line-height: 70px;
+color: #272D4E;
+}
+
+.block-trust h2 p {
+    width: 500px;
+    text-align: center;
+    
+}
+
+.block-trust .trust-quote {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.switch-btn {
+    position: absolute;
+    bottom: 100px;
+    right: 450px;
+}
+
+.block-support {
+    position: relative;
+}
+
+.title-support {
+    width: 500px;
+    text-align: center;
+}
+
+.title-support h2  {
+    font-weight: bold;
+font-size: 36px;
+line-height: 70px;
+}
+
+.block-about {
+    background-color: #5F37EF;
+    padding: 70px 0px;
+}
+
+.block-about p {
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 52px;
+color: var(--white);
+}
+
+.block-about a {
+    border: 2px solid var(--white);
+    background-color: #5F37EF;
+}
+/*------x----main======x======*/
+
+/*===========footer----------*/
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.title-footer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 52px
+}
+
+.footer-connect {
+    height: 80px;
+}
+/*===========footer----------*/
